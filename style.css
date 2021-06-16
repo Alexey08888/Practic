@@ -1,13 +1,18 @@
 body {
- font-size: 20px;
- color: red;
- line-height: 30px;
- font-weight: 700;
- background-color: #a8b1ff;
+  font-size: 20px;
+  color: red;
+  line-height: 30px;
+  font-weight: 700;
+  background-color: #a8b1ff;
+  padding: 0px;
+  margin: 0px;
+  border: 2px solid blue;
+  border-top: 2px  double #000;
+  border-bottom: 5px solid blue;
 }
+  p::first-letter{
 
-p::first-letter 
-{
 
-    font-size:  26px;
-}
+    font-size: 26px;
+  } 
+
