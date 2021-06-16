@@ -7,12 +7,19 @@ body {
   padding: 0px;
   margin: 0px;
   border: 2px solid blue;
-  border-top: 2px  double #000;
+  border-top: 2px double #000;
   border-bottom: 5px solid blue;
 }
-  p::first-letter{
+p::first-letter {
+  font-size: 26px;
+}
 
+.p1 {
+  display: inline-block;
+ 
+  max-width: 700px;
+  min-width: 300px;
+  width: 100%;
+  min-height: 350px;
 
-    font-size: 26px;
-  } 
-
+}
