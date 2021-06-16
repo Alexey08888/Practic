@@ -1,0 +1,13 @@
+body {
+ font-size: 20px;
+ color: red;
+ line-height: 30px;
+ font-weight: 700;
+ background-color: #a8b1ff;
+}
+
+p::first-letter 
+{
+
+    font-size:  26px;
+}
